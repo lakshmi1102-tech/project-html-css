@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Admin Dashboard</title>
+ <link rel="stylesheet" href="stylesheet.css">
+ <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="dashboard">`
+    <!-- Top Navigation Bar -->
+    <header class="navbar">
+      <h1 class="logo">PRODUCT ADMIN</h1>
+      <nav>
+        <ul>
+          <li><a href="#" class="active"> <img src="./gauge-solid.svg" style="width: 30px;height: 30px;position: relative; left: 20px;" > <br>dashboard</a></li>
+          <li><a href="#"><img src="./research.png" style="width: 30px;height: 30px;position: relative;left: 20px;"><br>Reports</a></li> 
+          <li><a href="#"><img src="./shopping-cart.png"style="width: 30px;height: 30px;position: relative;left: 20px;"><br>Products</a></li>
+          <li><a href="#"><img src="./user.png"style="width: 30px;height: 30px;position: relative;left: 20px;"><br>Accounts</a></li>
+          <li><a href="#"><img src="./setting.png"style="width: 30px;height: 30px;position: relative;left: 20px;"><br>Settings</a></li>
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#"> <img src="./setting.png"style="width: 30px;height: 30px;position: relative;left: 20px;>
+              Settings
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class=" dropdown-item active" href="#">profile</a></li>
+              <li><a class="dropdown-item" href="#">billing</a></li>
+              <li><a class="dropdown-item" href="#">Customize</a></li>
+            </ul>
+          </li>
+   -->
+        </ul>
+      </nav>
+      <div class="user">
+
+        <span>Admin,</span> | <a href="#">Logout</a>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="content">
+      <h2>welcome back,Admin</h2>
+      <!-- Charts and Info -->
+      <section class="charts">
+        <div class="chart1">
+          <h2>Latest Hits</h2>
+          <img src="https://cdn.dribbble.com/users/3593/screenshots/2475280/linechart.gif" width="450px">
+        </div>
+        <div class="chart2">
+          <h2>Performance</h2>
+          <img src="https://pbs.twimg.com/media/GE0_N6JWAAMF7yS?format=png&name=900x900" width="500px">
+        </div>
+      </section>
+      <!-- Notifications -->
+    <div class="dashboard-container">
+        <div class="storage-section">
+            <h2>Storage Information</h2> 
+            <div class="chart">
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI86A6J6nNxZ7D2gR3xkhJbJg5zpXzTA5vVOLy5yyHt71uHyAI">
+            </div>
+        </div>
+        <div class="notification-section">
+            <h2>Notification List</h2>
+            <div class="notification">
+                <img src="image4.jpg" alt="User Photo">
+                <p><strong>Jessica</strong> and 6 others sent you new <a href="#">product updates</a>. Check new orders.</p>
+                <span>6h ago</span>
+            </div>
+            <div class="notification">
+                <img src="image3.jpg" alt="User Photo">
+                <p><strong>Oliver Too</strong> and 6 others sent you existing <a href="#">product updates</a>. Read more reports.</p>
+                <span>6h ago</span>
+            </div>
+            <div class="notification">
+                <img src="image2.jpg" alt="User Photo">
+                <p><strong>Victoria</strong> and 6 others sent you <a href="#">order updates</a>. Read order information.</p>
+                <span>6h ago</span>
+            </div>
+        </div>
+    </div>
+    </main>
+
+
+      <!-- Orders -->
+      <section class="orders">
+        <h2>Orders List</h2>
+        <div class="items">
+     <table  border="1">
+          <thead style="background-color: grey;">
+            <tr>
+              <th>ORDER NO.</th>
+              <th>STATUS</th>
+              <th>OPERATOR</th>
+              <th>LOCATION</th>
+              <th>DISTANCE</th>
+              <th>START DATE </th>
+              <th> EST DELIVERY DUE</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>#122349</td>
+              <td>Moving</td>
+              <td>Oliver Trag</td>
+              <td>London, UK</td>
+              <td>485 km</td>
+              <td>16:00, 12 NOV 2018</td>
+              <td>08:00,18 nov 2018</td>
+            </tr>
+          <tr>
+            <td>#122348</td>
+            <td>pending</td>
+            <td>jacob miller</td>
+            <td>London, UK</td>
+            <td>360 km</td>
+            <td>11:00, 10 NOV 2018</td>
+            <td>04:00,14 nov 2018</td>
+         </tr>
+        <tr>
+          <td>#122347</td>
+              <td>cancelled</td>
+              <td>George willion</td>
+              <td>London, UK</td>
+              <td>340 km</td>
+              <td>12:00, 22 NOV 2018</td>
+              <td>04:00,28 nov 2018</td>
+       </tr>
+       <tr>
+        <td>#122346</td>
+              <td>Moving</td>
+              <td>willion aung</td>
+              <td>London, UK</td>
+              <td>218 km</td>
+              <td>15:00, 10 NOV 2018</td>
+              <td>09:00,14 nov 2018</td>
+      </tr>
+      <tr><td>#122345</td>
+        <td>pending</td>
+        <td>Herry ryan</td>
+        <td>London, UK</td>
+        <td>200 km</td>
+        <td>15:00, 12 NOV 2018</td>
+        <td>09:00,18 nov 2018</td>
+    </tr>
+    <tr>
+      <td>#122349</td>
+              <td>Moving</td>
+              <td>Oliver Trag</td>
+              <td>London, UK</td>
+              <td>485 km</td>
+              <td>18:00, 12 NOV 2018</td>
+              <td>06:00,18 nov 2018</td>
+    </tr>
+          </tbody>
+        </table>
+        </div>
+      </section>
+
+      <!-- <-- Profile Section -->
+       <div class= "account"> 
+        <section class="profile">
+        <h2>List of Accounts</h2>
+        <p>Accounts</p>
+        <input type="text" id="Accounts" placeholder="select account" width="100vw">
+        </section>
+        </div>
+        <div class="profile-container">
+           <div class="avatar">
+            <h3>Change Avatar</h3>
+            <img src="image1.png" alt="User Avatar"><br>
+            <button style="background-color: yellow;width: 415px;height: 40px; position: relative;left: 20px;">UPLOAD NEW PHOTO</button>
+          </div>
+          
+          <div class="settings">
+            <h3>Account Settings</h3>
+            <div class="set-main">
+              <div class="A">
+                <p>Account Name</p>
+                <input id="H" type="text" placeholder="lucky">
+                <p>Account Email</p>
+                <input id="H" type="email" placeholder=" guctyrsertw">
+                 <p>Password</p>
+                <input id="H" type="password" placeholder="12345"  >
+              </div>
+             <div class="B">
+              <p>Re-enter password</p>
+              <input id="I" type="password" placeholder="">  
+              <p>Phone</p>
+              <input id="I" type="text" placeholder="">
+              <p>profile</p>
+              <button class="active-1">Update Profile</button>
+             </div>
+             </div>
+            <button class="active-2">Delete Account</button>
+           </div>
+             </div>
+      
+      <!-- </section> -->
+
+    <footer style="background-color: darkgrey; height:50px ; width:100%; text-align: center; margin: 10px; padding: 10px;">
+     <p> copyright&copy;2018 All rights reserved design .Template Mo</p>
+
+    </footer>
+  </div>
+</body>
+</html>
